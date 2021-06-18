@@ -1,0 +1,10 @@
+@mixin containerCentered {
+  width: 75%;
+  margin: 0 auto;
+}
+
+@mixin responsiveFor($screen-size) {
+  @media only screen and (max-width: $screen-size) {
+    @content;
+  }
+}

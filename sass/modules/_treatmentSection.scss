@@ -1,0 +1,342 @@
+.treatment {
+  display: flex;
+
+  @include responsiveFor(1200px) {
+    flex-wrap: wrap;
+  }
+
+  @include responsiveFor(600px) {
+    flex-direction: column;
+  }
+
+  @include responsiveFor(600px) {
+    flex-direction: column;
+  }
+  &__best {
+    background-color: #43b1d2;
+    width: 25vw;
+
+    @include responsiveFor(1200px) {
+      width: 50vw;
+    }
+
+    @include responsiveFor(600px) {
+      width: 100vw;
+    }
+
+    img {
+      width: 70px;
+      height: 70px;
+      margin-top: 60px;
+      margin-left: 42%;
+      margin-bottom: 20px;
+
+      @include responsiveFor(1400px) {
+        width: 55px;
+        height: 55px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+      }
+
+      @include responsiveFor(1200px) {
+        margin-top: 30px;
+        width: 55px;
+        height: 55px;
+        transform: translate(50%);
+      }
+
+      @include responsiveFor(800px) {
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+        margin-left: 44%;
+        transform: translate(50%, 50%);
+      }
+    }
+
+    h2 {
+      font-family: "Montserrat";
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 25px;
+
+      @include responsiveFor(1400px) {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      @include responsiveFor(800px) {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+    }
+
+    p {
+      font-size: 15px;
+      color: #fff;
+      text-align: center;
+      line-height: 20px;
+      margin-bottom: 50px;
+
+      @include responsiveFor(1400px) {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 35px;
+      }
+
+      @include responsiveFor(800px) {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &__help {
+    background-color: #3fb6c6;
+    width: 25vw;
+
+    @include responsiveFor(1200px) {
+      width: 50vw;
+    }
+
+    @include responsiveFor(600px) {
+      width: 100vw;
+    }
+
+    img {
+      width: 70px;
+      height: 70px;
+      margin-top: 60px;
+      margin-left: 42%;
+      margin-bottom: 20px;
+
+      @include responsiveFor(1400px) {
+        width: 55px;
+        height: 55px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+      }
+
+      @include responsiveFor(1200px) {
+        margin-top: 30px;
+        width: 55px;
+        height: 55px;
+        transform: translate(50%);
+      }
+
+      @include responsiveFor(800px) {
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+        margin-left: 44%;
+        transform: translate(50%, 50%);
+      }
+    }
+
+    h2 {
+      font-family: "Montserrat";
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 25px;
+
+      @include responsiveFor(1400px) {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      @include responsiveFor(800px) {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+    }
+
+    p {
+      font-size: 15px;
+      color: #fff;
+      text-align: center;
+      line-height: 20px;
+      margin-bottom: 50px;
+
+      @include responsiveFor(1400px) {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 35px;
+      }
+
+      @include responsiveFor(800px) {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &__staff {
+    background-color: #3cbbbb;
+    width: 25vw;
+
+    @include responsiveFor(1200px) {
+      width: 50vw;
+    }
+
+    @include responsiveFor(600px) {
+      width: 100vw;
+    }
+
+    img {
+      width: 70px;
+      height: 70px;
+      margin-top: 60px;
+      margin-left: 42%;
+      margin-bottom: 20px;
+
+      @include responsiveFor(1400px) {
+        width: 55px;
+        height: 55px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+      }
+
+      @include responsiveFor(1200px) {
+        margin-top: 30px;
+        width: 55px;
+        height: 55px;
+        transform: translate(50%);
+      }
+
+      @include responsiveFor(800px) {
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+        margin-left: 44%;
+        transform: translate(50%, 50%);
+      }
+    }
+
+    h2 {
+      font-family: "Montserrat";
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 25px;
+
+      @include responsiveFor(1400px) {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      @include responsiveFor(800px) {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+    }
+
+    p {
+      font-size: 15px;
+      color: #fff;
+      text-align: center;
+      line-height: 20px;
+      margin-bottom: 50px;
+
+      @include responsiveFor(1400px) {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 35px;
+      }
+
+      @include responsiveFor(800px) {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &__doctors {
+    background-color: #37c3a8;
+    width: 25vw;
+
+    @include responsiveFor(1200px) {
+      width: 50vw;
+    }
+
+    @include responsiveFor(600px) {
+      width: 100vw;
+    }
+
+    img {
+      width: 70px;
+      height: 70px;
+      margin-top: 60px;
+      margin-left: 42%;
+      margin-bottom: 20px;
+
+      @include responsiveFor(1400px) {
+        width: 55px;
+        height: 55px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+      }
+
+      @include responsiveFor(1200px) {
+        margin-top: 30px;
+        width: 55px;
+        height: 55px;
+        transform: translate(50%);
+      }
+
+      @include responsiveFor(800px) {
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+        margin-left: 44%;
+        transform: translate(50%, 50%);
+      }
+    }
+
+    h2 {
+      font-family: "Montserrat";
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 25px;
+
+      @include responsiveFor(1400px) {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      @include responsiveFor(800px) {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+    }
+
+    p {
+      font-size: 15px;
+      color: #fff;
+      text-align: center;
+      line-height: 20px;
+      margin-bottom: 50px;
+
+      @include responsiveFor(1400px) {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 35px;
+      }
+
+      @include responsiveFor(800px) {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat-Medium.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Opensans";
+  src: url(../assets/fonts/OpenSans-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Opensans";
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url(../assets/fonts/Nexa-Bold.otf);
+  font-weight: bold;
+}
+
+:root {
+  font-family: "Opensans";
+  font-weight: normal;
+}
